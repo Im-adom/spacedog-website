@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                Nested Flex Trial
+
+                <link rel="stylesheet" href="styles/nestedflex.css">
+            </title>
+        </head>
+            <body>
+                <div style="
+                    display: flex;
+                    flex-direction: row;
+                    height: 70px;
+                 ">
+                    <div style="
+                        background-color: lightblue; 
+                        width: 100px;
+                        padding-left: 50px;
+                        padding-top: 25px;"> 
+                        <div style="
+                         display: flex;
+                         background-color: black;
+                         color: white;
+                         width: 40px; ">Item1
+                         </div>
+                    </div>
+                    <div style="
+                        background-color: lightpink; 
+                        width: 200px;">
+                    </div>
+                </div>
+
+
+                    <div style="
+                        display: flex;
+                        flex-direction: row;
+                        height: 70px;
+                        margin-top: 30px;">
+                        <div style="
+                            background-color: lightblue;
+                            width: 100px;">
+                        </div>
+                        <div style="
+                            background-color: lightpink;
+                            width: 200px;
+                            display: flex;
+                            flex-direction: row;
+                            padding-top: 20px;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            ">
+                            
+
+                            <div style="
+                                background-color: black;
+                                color: white;">
+                                 
+                                row1
+                            </div>
+                            <div style="
+                                background-color: black;
+                                color: white;"> 
+                                row2
+                            </div>
+
+                        </div>
+                    </div>
+
+                         <div style="
+                              width: 350px;
+                              margin-top: 30px;
+                              height: 70px;
+                              border-radius: 6px;
+                              border-color: rgb(230, 228, 228);
+                              border-style: solid;
+                              ">
+                                <div style="
+                                  color: rgb(211, 208, 208);
+                                  font-family: Arial;
+                                  font-size: 12px;
+                                  display: block;"> ALL INBOXES
+                                </div>
+                                <div style="
+                                    display: flex;
+                                    flex-direction: row;">
+                                    <div> <img class="pro-pic" src="thumbnails\download-cat.jpg"></div>
+                                </div>
+                         </div>
+            </body>
+    </html>
